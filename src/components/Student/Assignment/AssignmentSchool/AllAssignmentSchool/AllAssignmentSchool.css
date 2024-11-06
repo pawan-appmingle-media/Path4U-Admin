@@ -1,0 +1,50 @@
+#school-all-assignments-table {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+/* heading or nav btns css  */
+.school-all-ass-heading-or-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & > .school-all-ass-nav-btns {
+    /* border: 1px solid; */
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  button {
+    padding: 4px 10px;
+    border-radius: 8px;
+  }
+  button:nth-child(2) {
+    background-color: #212143;
+    color: #ffffff;
+  }
+}
+
+/* school all assignment table */
+.school-all-assignment-inner {
+  /* background-color: red; */
+  padding: 10px;
+  table {
+    background-color: #ffffff;
+    width: 70%;
+    thead {
+      background-color: #d3d3d3;
+    }
+    th {
+      border-left: 1px solid grey;
+      padding: 10px;
+    }
+    td {
+      padding: 10px;
+    }
+    svg {
+      font-size: 20px;
+      margin-left: 10px;
+    }
+  }
+}

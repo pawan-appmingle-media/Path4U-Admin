@@ -1,0 +1,73 @@
+#comp-exam-approval-upload-exam-main {
+  padding: 10px;
+  margin: 10px;
+}
+
+#comp-exam-approval-upload-exam-main {
+  margin: 10px;
+  padding: 10px;
+}
+#comp-exam-approval-upload-exam-main .comp-exam-se-fields-bg-color {
+  background-color: #f0f0f0;
+}
+#comp-exam-approval-upload-exam-main .comp-exam-se-main-container {
+  margin: 32px 10px;
+  h4 {
+    margin-bottom: 0;
+  }
+}
+#comp-exam-approval-upload-exam-main .comp-exam-se-approve-ue-card-box {
+  padding: 15px 0;
+}
+#comp-exam-approval-upload-exam-main .comp-exam-se-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+#comp-exam-approval-upload-exam-main .comp-exam-se-card-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 0;
+}
+#comp-exam-approval-upload-exam-main .comp-exam-se-card-li {
+  margin: 10px 0;
+  & > p {
+    font-size: 18px;
+  }
+}
+#comp-exam-approval-upload-exam-main .comp-exam-se-view {
+  color: #212143;
+}
+
+#comp-exam-approval-upload-exam-main .comp-exam-se-approve {
+  color: green;
+}
+#comp-exam-approval-upload-exam-main .comp-exam-se-reject {
+  color: red;
+}
+
+#comp-exam-approval-upload-exam-main .comp-exam-se-reject {
+  border: 2px solid lightgrey;
+  padding: 5px 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+#comp-exam-approval-upload-exam-main .comp-exam-se-approve {
+  border: 2px solid lightgrey;
+  padding: 5px 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+#comp-exam-approval-upload-exam-main .comp-exam-se-view {
+  border: 2px solid lightgrey;
+  padding: 5px 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-right: 5px;
+}

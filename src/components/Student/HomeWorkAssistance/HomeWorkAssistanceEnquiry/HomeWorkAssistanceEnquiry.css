@@ -1,0 +1,139 @@
+#home-work-assistance-enquiry-main {
+  background-color: #f3f3f3;
+}
+
+.home-work-assitance-student-profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #fff;
+  margin: 16px;
+  border-radius: 10px;
+  max-width: 1180px;
+  width: 100%;
+  /* border-left: 5px solid rgba(0, 128, 0, 0.75); */
+}
+.home-work-assitance-student-image-box {
+  width: 142px;
+  /* border: 1px solid; */
+  height: 142px;
+  margin: 10px auto;
+  & > img {
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    display: block;
+  }
+}
+.home-work-assistance-student-details-box p {
+  margin-bottom: 0.5rem;
+  line-height: 1rem;
+}
+.home-work-assistance-student-details-box b {
+  color: #08691c;
+}
+.home-work-assistance-student-details-box .icon-margin {
+  margin: 0 5px 5px 0;
+}
+.home-work-assistance-student-details-box .tution-joining-date {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.home-work-assitance-student-profile-container .share-icon-btn {
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  margin: 0 5px;
+}
+.tution-per-month-fee-amount {
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+  margin-left: 10px;
+  padding: 4px 10px;
+  color: #0a7e22;
+}
+.home-work-assitance-student-profile-container .upload-home-work-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  .upload-homw-work-btn-span {
+    border: 1px solid #c2c2c2;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.001;
+  }
+}
+.upload-home-work-btn input {
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+  opacity: 1;
+  max-width: 282px;
+  width: 200%;
+  /* border: 1px solid grey; */
+  margin-top: 5px;
+  cursor: pointer !important;
+  padding: 5px 0 !important;
+}
+
+.student-email,
+.student-subjects {
+  margin-left: 20px;
+}
+.home-work-assistance-student-details-box {
+  width: 80%;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.rejected-accepted-requests-and-forwards {
+  display: flex;
+  justify-content: end;
+  flex-wrap: nowrap;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 350px;
+  & > span {
+    display: block;
+    cursor: pointer;
+    .info-icon {
+      margin: 0 5px;
+      cursor: pointer;
+    }
+  }
+  & > .status {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 0 10px;
+    color: #d32940;
+    font-weight: 500;
+  }
+  & > .view-btn {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c2c2c2;
+    margin-right: 20px;
+    padding: 0 10px;
+    border-radius: 5px;
+    color: #08691c;
+    font-weight: 500;
+  }
+  & > .add-user {
+    display: flex;
+    align-items: center;
+    color: #f0b732;
+    & > a {
+      color: #ff9364;
+    }
+  }
+}

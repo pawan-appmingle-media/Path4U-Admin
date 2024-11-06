@@ -1,0 +1,48 @@
+#edit-all-notification-main-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* heading nav btns  */
+.edit-all-notification-heading-main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  .notif-header-main-btns {
+    display: flex;
+    gap: 10px;
+  }
+  button {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+}
+
+/* form css  */
+.edit-all-notification-inner-main {
+  padding: 10px;
+  form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+  .edit-all-notification-input {
+    display: flex;
+    flex-direction: column;
+    label {
+      margin-bottom: 5px;
+    }
+    input {
+      padding: 7px 10px;
+      border-radius: 5px;
+      height: 42px;
+      outline: none;
+      border: 1px solid #d3d3d3;
+    }
+  }
+}

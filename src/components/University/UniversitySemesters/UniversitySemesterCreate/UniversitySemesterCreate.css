@@ -1,0 +1,98 @@
+#add-college-course-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  padding: 15px;
+  height: auto;
+  background-color: #f3f3f3;
+}
+.add-college-course-inner-main-wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  /* margin: 10px; */
+}
+.course-header-with-btns {
+  width: 100%;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  margin-bottom: 0;
+  & > .college-course-nav-btns {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    margin: 2px;
+    padding: 5px;
+  }
+}
+.college-add-course-add-btn {
+  border: none;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: #212143;
+  color: #ffffff;
+}
+.college-all-course-btn {
+  border: none;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid grey;
+}
+
+/* Form Css*/
+
+.form-main-container {
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 100%;
+}
+.college-course-detail {
+  width: 50%;
+}
+form {
+  /* border: 1px solid; */
+  width: 70%;
+}
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 5px !important;
+  padding: 10px 5px;
+  & > label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  & > input {
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #c2c2c2;
+    font-size: 16px;
+  }
+}
+.college-course-form-btns {
+  width: 100%;
+  padding: 5px;
+  & > button {
+    padding: 5px 18px;
+    border: none;
+    margin: 10px;
+  }
+  & > button:nth-child(1) {
+    background-color: #212143;
+    color: #fff;
+    border-radius: 5px;
+  }
+  & > button:nth-child(2) {
+    background-color: #d3d3d9;
+    border-radius: 5px;
+  }
+}

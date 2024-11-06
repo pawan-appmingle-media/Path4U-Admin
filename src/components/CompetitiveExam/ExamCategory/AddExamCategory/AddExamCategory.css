@@ -1,0 +1,88 @@
+.add-exam-category-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  background-color: #f3f3f3;
+  /* padding: 20px; */
+}
+
+.add-exam-category-header-container {
+  padding: 20px;
+}
+
+.add-exam-category-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-exam-category-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.add-exam-category-exam-btn {
+  background-color: #212143;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+
+.category-exam-view-all-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 5px 30px;
+}
+
+.add-exam-category-form-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.add-exam-category-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-exam-category-input-group {
+  padding: 10px 0;
+}
+
+.add-exam-category-input-label {
+  padding-bottom: 10px;
+}
+
+.add-exam-category-wrapper input {
+  padding: 10px !important;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px !important;
+  outline: none;
+  font-size: 14px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.add-exam-category-exam-form-buttons {
+  display: flex;
+  column-gap: 10px;
+  padding-top: 20px;
+}
+
+.add-exam-category-btn-submit {
+  background-color: #212143;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.add-exam-category-btn-cancel {
+  background-color: lightgrey;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #c2c2c2;
+}

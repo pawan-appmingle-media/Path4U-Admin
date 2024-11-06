@@ -1,0 +1,153 @@
+.dashboard-aside {
+  min-width: 270px;
+  max-width: 270px;
+  width: 100%;
+  min-height: 650px;
+  background-color: #f5f5f5;
+  position: relative;
+  border-right: 2px solid #e0e0e0;
+  overflow-y: scroll;
+  scrollbar-color: #21214354 #f3f3f3;
+  scrollbar-width: thin;
+}
+
+/* Menu CSS */
+#aside-menu {
+  list-style: none;
+  padding-left: 0;
+  background-color: #f5f5f5;
+  max-width: 270px;
+  width: 100%;
+  margin-bottom: 0;
+  position: absolute;
+}
+#aside-menu .menu-link-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  & > div > a {
+    padding: 15px 20px;
+    position: relative;
+  }
+}
+.menu-icon-mr {
+  margin-right: 7px;
+}
+.main-up-down-icon {
+  font-size: 10px;
+  position: absolute;
+  right: 20px;
+  top: 40%;
+}
+
+#aside-menu a {
+  font-weight: 600;
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+}
+
+.menu-link-item {
+  & > div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  & > div > a {
+    display: block;
+    width: 100%;
+  }
+}
+.menu-link-item:hover {
+  background-color: #e0e0e0;
+}
+#menu-link-bgColor {
+  background-color: #e0e0e0;
+}
+
+/* Sub Link in Menu Links */
+
+.menu-link-dropdown-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;
+}
+.menu-link-dropdown-li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  /* background-color: pink; */
+  position: relative;
+  & > svg {
+    /* color: red; */
+    position: absolute;
+    left: 20px;
+  }
+  & > a {
+    display: block;
+    padding: 8px 12px;
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    position: relative;
+  }
+  /* a:hover {
+    background-color: #c4c4c4;
+  } */
+}
+.teacher-profile-ul {
+  padding-left: 0;
+}
+
+.menu-link-dropdown-li:hover {
+  background-color: #c4c4c4;
+}
+
+/* sublink menu  */
+
+.menu-exam-notes-ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.menu-exam-notes-li {
+  padding-left: 5px;
+  border-radius: 5px;
+}
+.menu-exam-notes-li:hover {
+  background-color: #ddddd9;
+}
+
+.exam-notes-home-tutor-ul {
+  list-style: none;
+  margin-bottom: 10px;
+  & > .exam-notes-home-tutor-li {
+    padding-left: 5px;
+    border-radius: 5px;
+  }
+  & > .exam-notes-home-tutor-li:hover {
+    background-color: #ddddd9;
+  }
+}
+
+.exam-notes-home-work-assistance-ul {
+  list-style: none;
+  margin-bottom: 10px;
+  & > .exam-notes-home-work-assistance-li {
+    padding-left: 5px;
+    border-radius: 5px;
+  }
+  & > .exam-notes-home-work-assistance-li:hover {
+    background-color: #ddddd9;
+  }
+}
+.menu-active-bg-color {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #f5f5f5;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,68 @@
+#university-submitted-exam-approval-main {
+  margin: 10px;
+  padding: 10px;
+}
+#university-submitted-exam-approval-main .university-se-fields-bg-color {
+  background-color: #f0f0f0;
+}
+#university-submitted-exam-approval-main .university-se-main-container {
+  margin: 32px 10px;
+  h4 {
+    margin-bottom: 0;
+  }
+}
+#university-submitted-exam-approval-main .university-se-approve-smte-card-box {
+  padding: 15px 0;
+}
+#university-submitted-exam-approval-main .university-se-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+#university-submitted-exam-approval-main .university-se-card-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 0;
+}
+#university-submitted-exam-approval-main .university-se-card-li {
+  margin: 10px 0;
+  & > p {
+    font-size: 18px;
+  }
+}
+#university-submitted-exam-approval-main .university-se-view {
+  color: #212143;
+}
+
+#university-submitted-exam-approval-main .university-se-approve {
+  color: green;
+}
+#university-submitted-exam-approval-main .university-se-reject {
+  color: red;
+}
+
+#university-submitted-exam-approval-main .university-se-reject {
+  border: 2px solid lightgrey;
+  padding: 5px 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+#university-submitted-exam-approval-main .university-se-approve {
+  border: 2px solid lightgrey;
+  padding: 5px 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+#university-submitted-exam-approval-main .university-se-view {
+  border: 2px solid lightgrey;
+  padding: 5px 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-right: 5px;
+}

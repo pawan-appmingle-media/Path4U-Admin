@@ -1,0 +1,95 @@
+#tuition-management-system-home-tutor-student-alldetails-main {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+  /* background-color: pink; */
+}
+#tuition-management-system-home-tutor-student-alldetails-main .icon-margin {
+  margin: 0 5px 5px 0;
+}
+
+.home-tutor-student-detailed-profile-container {
+  display: flex;
+  background-color: #fff;
+  margin: 16px;
+  border-radius: 10px;
+  width: auto;
+  height: 400px;
+  padding: 20px;
+}
+.home-tutor-student-detailed-image-box {
+  width: 142px;
+  /* border: 1px solid yellow; */
+  & > img {
+    margin: 10px auto;
+    display: block;
+    /* border: 1px solid red; */
+  }
+}
+.home-tutor-student-alldetails-box {
+  margin: 0 20px;
+  /* border: 1px solid; */
+  height: auto;
+}
+.stud-detail-tuition-per-month-fee-amount {
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+  padding: 4px 10px;
+  color: #0a7e22;
+}
+
+.home-tutor-student-detailed-profile-container p {
+  margin-bottom: 0.5rem;
+  line-height: 1rem;
+}
+.student-detailed-name-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & > span {
+    display: block;
+    height: 28px !important;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  & > .rejected {
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    background-color: #d32940;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 20px;
+    & > .info-icon {
+      margin: 0 5px;
+    }
+  }
+  & > .accepted {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c2c2c2;
+    margin-right: 20px;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: #08691c;
+    font-weight: 500;
+    & > .info-icon {
+      margin: 0 5px;
+    }
+  }
+}
+.student-detailed-profile {
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  color: #0a7e22;
+  padding: 4px 8px 2px 8px;
+  border: 1px solid #0a7e22;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}

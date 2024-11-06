@@ -1,0 +1,87 @@
+#comp-subject-main-wrapper {
+  max-width: 100vw;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+#comp-subject-inner-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+/* Header Section for Exam Categories Page */
+.comp-subject-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Buttons in Header Section */
+.comp-subject-header-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.comp-subject-add-btn {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
+.comp-subject-view-all-btn {
+  background-color: #212143;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+/* Table Section for Exam Categories Data */
+.comp-subject-table-wrapper {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.comp-subject-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.comp-subject-table thead {
+  background-color: #f5f5f5;
+}
+
+.comp-subject-table thead th {
+  padding: 10px;
+  border-left: 1px solid #c9c9c9;
+  text-align: center;
+}
+
+.comp-subject-table tbody tr td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Icon Styling for Edit/Delete Actions */
+.comp-subject-action-icons i {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.comp-subject-action-icons i.fa-file-pen {
+  color: #000;
+}
+
+.comp-subject-action-icons i.fa-trash-can {
+  color: #000;
+}

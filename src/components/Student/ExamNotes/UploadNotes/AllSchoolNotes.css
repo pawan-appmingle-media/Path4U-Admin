@@ -1,0 +1,92 @@
+#allschoolnotes-main-wrapper-with-header {
+  max-width: 100vw;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+#allschoolnotes-main-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#allschoolnotes-inner-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+/* Header Section for Notes Page */
+.allschoolnotes-header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Buttons in Header Section */
+.allschoolnotes-header-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.add-note-btn {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
+.all-notes-btn {
+  background-color: #212143;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+/* Table Section for Notes Data */
+.allschoolnotes-table-container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.allschoolnotes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.allschoolnotes-table thead {
+  background-color: #f5f5f5;
+}
+
+.allschoolnotes-table thead th {
+  padding: 10px;
+  border-left: 1px solid #c9c9c9;
+  text-align: center;
+}
+
+.allschoolnotes-table tbody tr td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Icon Styling for Edit/Delete Actions */
+.table-action-icons i {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.table-action-icons i.fa-file-pen {
+  color: #000;
+}
+
+.table-action-icons i.fa-trash-can {
+  color: #000;
+}

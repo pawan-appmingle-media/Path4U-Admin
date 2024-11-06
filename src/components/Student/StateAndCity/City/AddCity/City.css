@@ -1,0 +1,74 @@
+.add-city-main-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* all states heading and nav btns css */
+.add-city-main-container .all-cities-heading-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-city-main-container .all-cities-nav-btns-div {
+  padding: 0 10px;
+}
+.add-city-main-container .nav-add-cities-form {
+  background-color: #212143;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.add-city-main-container .nav-all-cities-table {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Add city form css  */
+.city-input-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  & > label {
+    padding-bottom: 10px;
+  }
+  & > select {
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #c2c2c2;
+    font-size: 16px;
+    width: 550px;
+  }
+  & > input {
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #c2c2c2;
+    font-size: 16px;
+    width: 550px;
+  }
+}
+
+.city-input-group-btns {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  & > button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  & > button:nth-child(1) {
+    background-color: #212143;
+    color: white;
+  }
+  & > button:nth-child(2) {
+    background-color: #d3d3d3;
+  }
+}

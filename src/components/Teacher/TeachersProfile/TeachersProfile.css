@@ -1,0 +1,48 @@
+#teacher-profile-container {
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  margin: 20px;
+  border-radius: 10px;
+}
+#teacher-profile-container .teacher-profile-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #fff;
+  margin: 16px;
+  border-radius: 10px;
+}
+#teacher-profile-container .teacher-profile-share-teacher-image-box {
+  width: 142px;
+  height: 142px;
+  margin: 10px auto;
+  & > img {
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    display: block;
+  }
+}
+#teacher-profile-container .teacher-profile-teacher-details-box {
+  width: 80%;
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+#teacher-profile-container .teacher-profile-teacher-details-box p {
+  margin-bottom: 0.5rem;
+  line-height: 1rem;
+}
+#teacher-profile-container .teacher-profile-teacher-details-box b {
+  color: #08691c;
+}
+#teacher-profile-container .icon-margin {
+  margin: 0 5px 5px 0;
+}
+.teacher-profile-card-star {
+  color: #404040;
+  font-size: 18px;
+  color: #ffb400;
+}

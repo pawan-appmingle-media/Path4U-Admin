@@ -1,0 +1,54 @@
+#all-gov-app-card-all-main {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  h4 {
+    margin-bottom: 10px;
+  }
+}
+/* heading nav btns  */
+.all-gov-app-card-heading-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header-main-btns {
+    display: flex;
+    gap: 10px;
+  }
+  button {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  button:nth-child(1) {
+    color: #000;
+  }
+  button:nth-child(2) {
+    background-color: #212143;
+    color: #fff;
+  }
+}
+
+.all-gov-app-card-table-div {
+  margin-top: 32px;
+  table {
+    width: 70%;
+    border-radius: 10px;
+    padding: 5px;
+    thead {
+      background-color: #d3d3d3;
+      th {
+        border-left: 1px solid #ababab;
+        padding: 10px;
+      }
+    }
+    tbody {
+      background-color: #fff;
+    }
+    svg {
+      font-size: 20px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}

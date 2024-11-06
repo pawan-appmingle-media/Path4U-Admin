@@ -1,0 +1,166 @@
+#college-all-course-inner-main-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  padding: 15px;
+  height: auto;
+  background-color: #f3f3f3;
+}
+.course-header-with-btns-table-page {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  margin-bottom: 0;
+}
+.college-all-course-nav-btns-table {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  margin: 2px;
+  padding: 5px;
+}
+.college-add-course-add-btn-table-page {
+  border: none;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.college-all-course-btn-table-page {
+  border: none;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: #212143;
+  color: #ffffff;
+  border: 1px solid grey;
+}
+.college-all-course-inner-main-wrapper {
+  background-color: #fff;
+}
+
+/* .departmetHeaderdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+.departmentdiv2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+.departmentRight {
+  background-color: #212143;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+#all-department-inner-wrapper .fee-management {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 5px 30px;
+}
+.departmentSecond {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.departmentSecondRoght {
+  display: flex;
+  column-gap: 20px;
+}
+.superhead {
+  /* background-color: #F5F5F5; */
+  padding: 20px;
+}
+.form-container {
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+}
+/* .department-detail{
+  font-size: small;
+} */
+.form-btns {
+  display: flex;
+  column-gap: 10px;
+  padding: 20px;
+}
+
+.departmentSecondRoght {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forwardarrow {
+  background-color: #0a7e22;
+  padding: 10px;
+}
+
+.backword {
+  background-color: #ffd6db;
+  padding: 10px;
+}
+
+#input_sec {
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 20px;
+  width: 300px;
+  padding: 10px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  & > input {
+    padding: 15px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    outline: none;
+  }
+}
+.btn-search {
+  background-color: #212143;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-cancel {
+  padding: 5px 20px;
+  color: grey;
+  border: none;
+  border-radius: 9px;
+  color: black;
+}
+#form {
+  background-color: white;
+}
+
+/* header table css */
+.headertable {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.headertable table {
+  width: 80%;
+  margin: 20px 5px;
+  padding: 20px;
+  /* border: 1px solid grey; */
+  border-radius: 10px;
+  & > thead {
+    background-color: #f5f5f5;
+    & > tr > th {
+      border-left: 1px solid #c9c9c9;
+      padding: 10px;
+    }
+  }
+}

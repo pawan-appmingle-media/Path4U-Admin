@@ -1,0 +1,52 @@
+#central-gov-scholarship-main-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* heading nav btns  */
+.central-gov-heading-main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  .header-main-btns {
+    display: flex;
+    gap: 10px;
+  }
+  button {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  button:nth-child(1) {
+    background-color: #212143;
+    color: #fff;
+  }
+  button:nth-child(2) {
+    color: #000;
+  }
+}
+
+/* form css  */
+.central-gov-scholarship-inner {
+  padding: 10px;
+  form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+  .central-gov-input {
+    display: flex;
+    flex-direction: column;
+    input {
+      padding: 7px 10px;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid #d3d3d3;
+      /* background-color: #f0f0f0; */
+    }
+  }
+}

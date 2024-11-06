@@ -1,0 +1,65 @@
+#student-assignment-main-wrapper {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#student-assignment-main-wrapper h4 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.assignment-inner-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.assignment-inner-div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 360px;
+  height: 200px;
+  font-size: 1.5rem;
+  color: #495057;
+  background: linear-gradient(145deg, #ffffff, #f1f3f5);
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.assignment-inner-div > div:hover {
+  transform: scale(1.05);
+  background-color: #f8f9fa;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .assignment-inner-div {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  #student-assignment-main-wrapper h4 {
+    font-size: 1.8rem;
+  }
+
+  .assignment-inner-div > div {
+    height: 180px;
+    font-size: 1.4rem;
+  }
+}

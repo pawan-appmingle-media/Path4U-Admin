@@ -1,0 +1,86 @@
+.topics-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+.topics-header-container {
+  padding: 20px;
+}
+
+.topics-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topics-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.topics-add-btn {
+  background-color: #212143;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+
+.topics-view-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 5px 30px;
+}
+
+.topics-form-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.topics-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.topics-input-group {
+  padding: 10px 0;
+}
+
+.topics-input-label {
+  padding-bottom: 10px;
+}
+
+.topics-input-field {
+  padding: 10px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #c2c2c2;
+  font-size: 16px;
+  width: 550px;
+}
+
+.topics-form-buttons {
+  display: flex;
+  column-gap: 10px;
+  padding-top: 20px;
+}
+
+.topics-btn-submit {
+  background-color: #212143;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.topics-btn-cancel {
+  background-color: lightgrey;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #c2c2c2;
+}

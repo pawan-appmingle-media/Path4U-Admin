@@ -1,0 +1,36 @@
+#se-university-three-cards-main {
+  /* background-color: rgb(220, 220, 220); */
+  margin: 20px;
+  padding: 20px;
+}
+.university-three-inner {
+  display: flex;
+  gap: 20px;
+  & > div > p {
+    height: 200px;
+    font-size: 20px;
+  }
+}
+.university-sub-exam-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  box-shadow: 0 0 15px #c6c6c6;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  & > div > svg {
+    font-size: 50px;
+  }
+  & > div > p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+.university-sub-exam-card:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}

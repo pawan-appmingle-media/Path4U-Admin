@@ -1,0 +1,73 @@
+.toolbar-main,
+.table-button-group {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(232, 229, 226);
+  border: 1px solid gray;
+  padding: 5px;
+}
+.ProseMirror {
+  min-height: 300px;
+}
+img.ProseMirror-selectednode {
+  width: 500px;
+}
+.toolbar-main button {
+  padding: 2px 2% 2px 2%;
+  margin: 1px;
+  border-radius: 20px;
+  border: none;
+  background-color: darkgrey;
+  font-size: 15px;
+  /* color: white; */
+}
+.toolbar-main button:hover {
+  color: white;
+  background-color: black;
+}
+.table-button-group button {
+  padding: 2px 2% 2px 2%;
+  margin: 1px;
+  border-radius: 20px;
+  border: none;
+  background-color: darkgrey;
+  font-size: 15px;
+}
+
+.text-container {
+  border: 1px solid black;
+  padding: 1%;
+  max-width: 100%;
+  min-height: 30vh;
+}
+.tiptap-editor {
+  margin: 1%;
+}
+
+.table-contol-show {
+  display: block;
+}
+.table-contol-hide {
+  display: none;
+}
+
+/* Add borders to the table */
+.tiptap-editor table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ddd;
+}
+
+.tiptap-editor th,
+.tiptap-editor td {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+.tiptap-editor th {
+  background-color: #f2f2f2;
+  text-align: left;
+}

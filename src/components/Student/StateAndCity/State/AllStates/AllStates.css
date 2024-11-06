@@ -1,0 +1,56 @@
+#all-states {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* all states heading and nav btns css */
+#all-states .all-state-heading-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#all-states .all-states-nav-btns-div {
+  padding: 0 10px;
+}
+#all-states .nav-add-states-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+#all-states .nav-all-states-table {
+  background-color: #212143;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* all states table css */
+#all-states table {
+  width: 678px;
+  /* border: 1px solid; */
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+#all-states th {
+  padding: 10px;
+  border-left: 1px solid #c9c9c9;
+  text-align: center;
+  background-color: rgb(242, 242, 242);
+}
+
+/* state table action icon css  */
+.state-action-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg {
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+  }
+}

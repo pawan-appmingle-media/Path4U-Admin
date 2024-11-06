@@ -1,0 +1,74 @@
+.subjective-exam-main-wrapper {
+  margin: 20px;
+  padding: 20px;
+}
+.subjective-exam-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subjective-exam-btns-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  width: 320px;
+}
+.subjective-exam-add-new-btn {
+  background-color: #212143;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.subjective-exam-all-exam-btn {
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* inner main div  */
+.cards-text-or-btns-main {
+  margin-top: 20px;
+}
+
+/* Cards CSS  */
+.subjective-exam-cards-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}
+.subj-exam-card-first-main {
+  background-color: #fff;
+  margin: 5px;
+  height: 200px;
+  width: 35%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subj-exam-card-first-main:hover {
+  background-color: rgb(250, 250, 250);
+  cursor: pointer;
+}
+.subjective-exam-next-or-cancel-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  max-width: 1024px;
+  width: 100%;
+  margin: 20px auto;
+  gap: 20px;
+  & > button {
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+  }
+  .se-next {
+    background-color: #212143;
+    color: #fff;
+  }
+  .se-cancel {
+    background-color: #d3d3d3;
+  }
+}

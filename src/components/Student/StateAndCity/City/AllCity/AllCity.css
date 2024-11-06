@@ -1,0 +1,81 @@
+#filter-and-all-city-main {
+  margin: 20px;
+}
+#all-cities-filter {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+  select {
+    width: 50%;
+    outline: none;
+    margin: 10px 0 10px 10px;
+    padding: 8px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .cities-filter-submit-btn {
+    background-color: #212143;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+}
+
+#all-cities {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* all states heading and nav btns css */
+#all-cities .all-cities-heading-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#all-cities .all-cities-nav-btns-div {
+  padding: 0 10px;
+}
+#all-cities .nav-add-cities-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+#all-cities .nav-all-cities-table {
+  background-color: #212143;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* all states table css */
+#all-cities table {
+  width: 678px;
+  /* border: 1px solid; */
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+#all-cities th {
+  padding: 10px;
+  border-left: 1px solid #c9c9c9;
+  text-align: center;
+  background-color: rgb(242, 242, 242);
+}
+
+/* state table action icon css  */
+.cities-action-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg {
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+  }
+}

@@ -1,0 +1,89 @@
+.main-header {
+  padding: 20px;
+}
+
+#exam-college-notes-inner-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  height: auto;
+  background-color: #f3f3f3;
+}
+
+.exam-header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exam-btn-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.addNewNoteBtn {
+  background-color: #212143;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+
+.viewAllNotesBtn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 5px 30px;
+}
+
+.allform-container {
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form2-btns {
+  display: flex;
+  column-gap: 10px;
+  padding: 20px;
+}
+
+.btn-save {
+  background-color: #212143;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  background-color: lightgrey;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-group {
+  padding: 10px 0;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input[type="file"] {
+  padding: 8px;
+}

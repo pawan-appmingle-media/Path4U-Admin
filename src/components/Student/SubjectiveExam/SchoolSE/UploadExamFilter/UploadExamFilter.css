@@ -1,0 +1,38 @@
+.school-filter-main-div {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.school-fields-bg-color {
+  background-color: #f0f0f0;
+}
+.school-filter-fields-container {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  & > div {
+    width: 50%;
+  }
+  /* submit btn  */
+  & > div:nth-child(3) {
+    width: 76px;
+  }
+}
+/* .school-filter-language-btns {
+  background-color: white;
+} */
+.school-lang-radios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+.school-filter-submit-btn {
+  background-color: #212143;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

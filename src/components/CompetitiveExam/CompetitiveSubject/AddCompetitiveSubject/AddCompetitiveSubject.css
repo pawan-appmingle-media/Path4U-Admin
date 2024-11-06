@@ -1,0 +1,95 @@
+.competitive-subject-wrapper input {
+  padding: 10px !important;
+  border-radius: 5px !important;
+  outline: none;
+  border: 1px solid #c2c2c2;
+  font-size: 16px;
+  max-width: 500px;
+  width: 100%;
+}
+.competitive-subject-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+.competitive-subject-header-container {
+  padding: 20px;
+}
+
+.competitive-subject-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.competitive-subject-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.competitive-subject-add-btn {
+  background-color: #212143;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+
+.competitive-subject-view-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 5px 30px;
+}
+
+.competitive-subject-form-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.competitive-subject-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.competitive-subject-input-label {
+  padding-bottom: 10px;
+}
+
+.competitive-subject-input-field {
+  padding: 10px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #c2c2c2;
+  font-size: 16px;
+  width: 550px;
+}
+.competitive-subject-wrapper input {
+  border-radius: 5px !important;
+  width: 100%;
+}
+
+.competitive-subject-form-buttons {
+  display: flex;
+  column-gap: 10px;
+  padding-top: 20px;
+}
+
+.competitive-subject-btn-submit {
+  background-color: #212143;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.competitive-subject-btn-cancel {
+  background-color: lightgrey;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #c2c2c2;
+}
